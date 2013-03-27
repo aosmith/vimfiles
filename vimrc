@@ -6,8 +6,7 @@ set foldmethod=indent
 set foldlevel=1
 
 set nocompatible
-colorscheme desert 
-colorscheme darkspectrum
+colorscheme molokai
 
 set autoindent
 set ruler
