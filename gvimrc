@@ -1,4 +1,4 @@
 set guioptions=eaA
-set guifont=Droid\ Sans\ Mono\ for\ Powerline:h11
+set guifont=Menlo:h18
 set nowrap
 set transparency=10
