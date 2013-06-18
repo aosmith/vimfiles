@@ -15,7 +15,6 @@ set ignorecase
 set number
 set nobackup
 set noswapfile
-set clipboard=unnamed
 
 filetype off 
 call pathogen#helptags()
