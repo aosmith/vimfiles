@@ -38,8 +38,8 @@
 	path = bundle/vim-ack
 	url = git://github.com/mileszs/ack.vim.git
 [submodule "bundle/vim-conque"]
-	path = bundle/vim-conque
-	url = git://github.com/rson/vim-conque.git
+  path = bundle/vim-conque
+  url = git://github.com/vim-scripts/Conque-Shell
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
