@@ -73,4 +73,4 @@ function! StripWhiteSpace ()
 endfunction
 noremap <leader>ss :call StripWhiteSpace ()<CR>
 au BufWrite *.rb,*.coffee :call StripWhiteSpace()
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+" set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
