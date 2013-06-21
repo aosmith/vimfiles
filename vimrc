@@ -38,13 +38,9 @@ let no_otl_insert_maps=0
 let mapleader=','
 
 nnoremap ; :
-noremap <leader>t :CommandT<CR>  
-noremap <leader>sd :NERDTree<CR>
+noremap <leader>q :CommandT<CR>  
 noremap <leader>sf :Sex<CR>
 nmap <silent> ,/ :let @/=""<CR>
-map <C-n> :NERDTreeToggle<CR>
-autocmd vimenter * if !argc() | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 map <CA-Left> <C-w><Left>
 map <CA-Right> <C-w><Right>
