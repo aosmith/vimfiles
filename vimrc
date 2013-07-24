@@ -1,3 +1,5 @@
+" set t_Co=256
+
 set wildignore=assets/**,app/assets/images/**,log/**,tmp/**,public/assets/**,public/course-data/**,public/system/**,public/api/v1/system/**,data/**,.DS_Store
 let g:CommandTMaxFiles=80085
 let g:buffergator_suppress_keymaps=1
