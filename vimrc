@@ -76,3 +76,4 @@ endfunction
 noremap <leader>ss :call StripWhiteSpace ()<CR>
 au BufWrite *.rb,*.coffee :call StripWhiteSpace()
 " set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+au BufNewFile,BufRead *.cpp set syntax=cpp11
